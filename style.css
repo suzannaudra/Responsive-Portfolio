@@ -227,8 +227,6 @@ body {
     margin-right: -25px;
     margin-left: -20px;
   }
-}
-
   .main-section,
   .sidebar {
     max-width: 95%;
@@ -255,14 +253,13 @@ body {
     position: static;
     margin-bottom: 20px;
   }
-}
-nav {
-  width: 100%;
-  text-align: center;
-  margin: 40px;
-}
+  nav {
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+  }
   #main-container {
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .auth-image {
@@ -295,3 +292,4 @@ nav {
     margin-right: 10px;
     padding: 5px;
   }
+}
