@@ -220,6 +220,23 @@ body {
   nav {
   margin-right: 5px;
   }
+  .container {
+    padding: 0 20px;
+    max-width: 768px;
+  }
+  #main-container {
+    padding-top: 130px; 
+  }
+.main-section {
+  max-width: 420px;
+}
+.work {
+  width:100%;
+}
+.auth-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -241,10 +258,16 @@ body {
 
   .work {
     width: 45%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
+
+  .work:nth-child(even) {
+    margin-right: 0;
+  }
+
   .auth-image {
-    width: 50%;
+    width: 100%;
+    border: 5px
   }
 }
 
@@ -256,12 +279,15 @@ body {
   nav {
     width: 100%;
     text-align: center;
-    margin: 40px;
+    margin: 15px 0;
   }
   #main-container {
-    padding-top: 100px;
+    padding-top: 0px;
   }
 
+  header.container {
+    padding: 0;
+  }
   .auth-image {
     width: 100%;
   }
