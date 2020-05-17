@@ -139,7 +139,7 @@ body {
   .work {
     position: relative;
     float: left;
-    width: 266px;
+    width: 226px;
     margin: 16.5px;
     overflow: auto;
 
@@ -223,7 +223,7 @@ body {
     max-width: 768px;
   }
 #main-container {
-    padding-top: 130px; 
+    padding-top: 120px; 
   }
 .main-section {
   max-width: 95%px;
